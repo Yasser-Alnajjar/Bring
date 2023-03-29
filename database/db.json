@@ -1,0 +1,114 @@
+{
+  "departs": [
+    {
+      "id": 1,
+      "name": "Markting"
+    },
+    {
+      "id": 2,
+      "name": "Tecnical"
+    },
+    {
+      "id": 3,
+      "name": "Support"
+    },
+    {
+      "id": 4,
+      "name": "Anything"
+    },
+    {
+      "id": 5,
+      "name": "Anything"
+    },
+    {
+      "id": 6,
+      "name": "Anything"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "test1@test.com",
+      "name": "mostafa mahfouz",
+      "role": "admin",
+      "attend": true,
+      "code": 1
+    },
+    {
+      "id": 2,
+      "email": "test@test.com",
+      "name": "ahmed nasser",
+      "role": "admin",
+      "attend": true,
+      "code": 2
+    },
+    {
+      "id": 3,
+      "email": "aaa@aaa.com",
+      "name": "nour elden",
+      "role": "admin",
+      "attend": false,
+      "code": 3
+    },
+    {
+      "id": 4,
+      "email": "a@a.com",
+      "name": "Abdel malek",
+      "role": "admin",
+      "attend": true,
+      "code": 4
+    },
+    {
+      "email": "yasserabdo@gmail.com",
+      "password": "$2a$10$/KlgNDA148P51sK5luSBU.NYvq6E8HmZIC/D3YLkXRdG81pp1KMZ.",
+      "name": "Yasser",
+      "code": "334",
+      "role": "user",
+      "attend": false,
+      "id": 6
+    }
+  ],
+  "holidays": [
+    {
+      "holidayName": "New Year",
+      "holidayDate": "2024-01-01",
+      "id": 1
+    },
+    {
+      "holidayName": "New Year ",
+      "holidayDate": "2025-01-01",
+      "id": 2
+    },
+    {
+      "holidayName": "New Year",
+      "holidayDate": "2026-01-01",
+      "id": 3
+    },
+    {
+      "holidayName": "New Year",
+      "holidayDate": "2027-01-01",
+      "id": 4
+    },
+    {
+      "holidayName": "New Year",
+      "holidayDate": "2028-01-01",
+      "id": 5
+    },
+    {
+      "holidayName": "New Year",
+      "holidayDate": "2029-01-01",
+      "id": 6
+    },
+    {
+      "holidayName": "New Year",
+      "holidayDate": "2030-01-01",
+      "id": 7
+    },
+    {
+      "holidayName": "My BirthDay",
+      "holidayDate": "2000-01-01",
+      "id": 8
+    }
+  ],
+  "attendance": []
+}
