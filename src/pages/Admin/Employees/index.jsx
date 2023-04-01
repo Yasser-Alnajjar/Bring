@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Button, ButtonGroup, Dropdown, Table } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
-import TRowEmployee from "../../../components/Employee/TRowEmployee";
-import AddEmployee from "../../../components/Forms/Employee/AddEmployee";
+
+import AddEmployee from "../../../components/Forms/Employee/AddEmployee.jsx";
 import Filters from "../../../components/Forms/Filters";
 import Modals from "../../../components/Modals";
 import {
@@ -18,6 +18,7 @@ import {
 import { BiEdit } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
+import TRowEmployee from "../../../components/Forms/Employee/TRowEmployee";
 export default function Employees() {
   const { employees, filterByName, filterByEmail, filterByCode } = useSelector(
     (state) => state

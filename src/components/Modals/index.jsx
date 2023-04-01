@@ -1,20 +1,19 @@
 import { Container } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 import { useDispatch, useSelector } from "react-redux";
-import { closeModal } from "../../redux/slices/layout-slice";
 
 export default function Modals({ title, children, size }) {
   const { layout } = useSelector((state) => state);
   const dispatch = useDispatch();
 
-  const handleClose = () => dispatch(closeModal());
+  // const handleClose = () => dispatch(closeModal());
 
   return (
     <>
       <Modal
         className="d-flex align-items-center"
         show={layout.modals}
-        onHide={handleClose}
+        // onHide={handleClose}
         size={size}
         style={{ overflowY: "auto" }}
       >
